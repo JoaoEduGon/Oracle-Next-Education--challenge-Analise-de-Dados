@@ -33,7 +33,7 @@ O projeto é estruturado da seguinte forma:
    
       README.md                         
 
-#Descrição dos Arquivos
+**Descrição dos Arquivos**
 
 challenge Analise de Dados.ipynb: O notebook contém a análise completa, desde a leitura dos dados até a geração de gráficos e conclusões.
 
@@ -56,30 +56,44 @@ Foi gerado um gráfico de linha representando a média de avaliações dos clien
 Frete Médio por Loja
 Um gráfico de linha também foi utilizado para comparar o frete médio entre as lojas. A Loja 4 teve o menor frete médio.
 
-Instruções para Executar o Notebook
-Pré-requisitos
-Antes de executar o notebook, instale as dependências necessárias. Você pode fazer isso executando:
+**Instruções para Executar o Notebook**
 
-nginx
+Este projeto foi desenvolvido e executado no Google Colab, facilitando a execução sem necessidade de configurações locais. Para rodar o notebook no Colab, siga os passos abaixo:
+
+Executando no Google Colab
+Clone o repositório:
+
+Para clonar o repositório no seu ambiente local ou diretamente no Colab, execute no Colab:
+
+python
+Copiar
+Editar
+!git clone https://github.com/seu_usuario/Challenge-Analise-de-Dados.git
+%cd Challenge-Analise-de-Dados
+Abra o notebook no Google Colab:
+
+Acesse o notebook diretamente pelo Google Colab carregando o arquivo Challenge_Analise_de_Dados.ipynb:
+
+Clique aqui para abrir no Google Colab
+
+Execute as células:
+
+No Colab, basta executar as células do notebook para carregar os dados, realizar as análises e gerar os gráficos.
+
+Executando Localmente (Opcional)
+Caso prefira executar o notebook localmente:
+
+Instale as dependências necessárias com o comando:
+
+bash
 Copiar
 Editar
 pip install -r requirements.txt
-Executando o Notebook
-Clone o repositório:
-
-bash
-Copiar
-Editar
-https://github.com/JoaoEduGon/Oracle-Next-Education--challenge-Analise-de-Dados
-cd challenge Analise de Dados
 Abra o notebook no Jupyter:
 
-Para abrir o notebook e visualizar a análise, execute o seguinte comando no terminal:
-
 bash
 Copiar
 Editar
-jupyter notebook challenge Analise de Dados.ipynb
-Execute as células:
+jupyter notebook Challenge_Analise_de_Dados.ipynb
+Execute as células do notebook para visualizar as análises e gráficos.
 
-No Jupyter, execute as células do notebook para carregar os dados, realizar as análises e gerar os gráficos.
