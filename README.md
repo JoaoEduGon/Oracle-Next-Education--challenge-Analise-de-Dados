@@ -1,2 +1,2 @@
 # Oracle-Next-Education--challenge-Analise-de-Dados
-Este repositório contém uma análise de desempenho de várias lojas, com foco em aspectos como faturamento, vendas por categoria, avaliações dos clientes, produtos mais e menos vendidos, e frete médio.
+Este repositório contém uma análise de desempenho de várias lojas, com foco em aspectos como faturamento, vendas por categoria, avaliações dos clientes, produtos mais e menos vendidos, e frete médio. Utilizando Python, foram aplicadas bibliotecas como Pandas, Seaborn e Matplotlib para processar dados e gerar visualizações. O objetivo principal é identificar a loja com o melhor desempenho para otimizar a decisão de venda
